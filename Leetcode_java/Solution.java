@@ -1,47 +1,42 @@
 package Leetcode_java;
 
-class Solution {  
-    public static char tonum(int data){
+class Solution {
+        public static int myAtoi(String s) {
+            char ss[] =s.toCharArray();
+            StringBuilder sol = new StringBuilder();
+            int p =0;
+            int np = 1;
+            while(p<s.length()){
+                if(s.charAt(p)=='-'){
+                    np =-1;
+                } 
+                if(ss[p]==' '){
+                    p++;
+                    continue;
+                    
+                } else if(!Character.isDigit(ss[p])){
+                    sol.append('0');
+                   break;
+                } else if(Character.isDigit(ss[p])){
+                     sol.append(ss[p]);;
+                } else {
+                    
+                }
+                p++;
+            }
 
-        if(data == 1){
-            return 'I';
-        }
-        if(data == 5 ){
-            return 'V';
-        }
-        if(data == 10){
-            return 'X';
-        }
-        if(data == 50){
-            return 'L';
-        }
-        if(data == 100){
-            return 'c';
-        }
-        if(data ==500){
-            return 'D';
-        }
-        if(data == 1000){
-            return 'M';
-        } 
-        return 0;  
-    }
-    public static int romanToInt(String s){
-      int sol =0;
-      StringBuilder ne = new StringBuilder();
-      
-      
-
-      return sol;
-    }
+            String ra = sol.toString();
     
-   
-
+           int re = Integer.parseInt(ra);
+            return re;
+        }
 
     public static void main(String[] args) {
-     String s = "MCMXCIV";
-     System.out.println(romanToInt(s));
-     System.out.println(tonum(s.charAt(1)));
+    double x = 2;
+    String n = "a135234";
+    int sol = myAtoi(n);
+    System.out.println(sol);
+
 
                  
         

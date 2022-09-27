@@ -1,4 +1,4 @@
-package Recursion;
+
 public class sumofn {
 
   /*   public int sumn (int[] arr){
