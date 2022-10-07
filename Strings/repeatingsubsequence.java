@@ -1,17 +1,16 @@
-package Strings.Test;
+package Strings;
 import java.util.*;
-public class DebugCode2 {
+public class repeatingsubsequence {
 // Java program to find the longest
 // repeatings ubsequence
 
 	// Function to find the longest repeating subsequence
-	static String findLongestRepeatingSubSeq(String str)
+	static int findLongestRepeatingSubSeq(String str)
 	{
 		int n = str.length();
 
 		// Create and initialize DP table
-		String[][] dp = new String[n+1][n+1];
-		System.out.println(dp[1][1]);
+		int[][] dp = new int[n+1][n+1];
 
 		// Fill dp table (similar to LCS loops)
 		for (int i=1; i<=n; i++)
@@ -19,19 +18,12 @@ public class DebugCode2 {
 			for (int j=1; j<=n; j++)
 			{
 				// If characters match and indexes are not same
-				if (str.charAt(i-1) == str.charAt(j-1) && i!=j){
-					dp[i][j] =  dp[i-1][j-1]+str.charAt(i-1);		
+				if (str.charAt(i-1) == str.charAt(j-1) && i!=j)
+					dp[i][j] = 1 + dp[i-1][j-1];		
 					
 				// If characters do not match
-				}else{
-					if(dp[i][j-1]==null|| dp[i-1][j]==null)
-						continue;
-					else if(dp[i][j-1].length()> dp[i-1][j].length())
-						dp[i][j] = dp[i][j-1];
-					else
-					dp[i][j] = dp[i-1][j];
-				}
-
+				else
+					dp[i][j] = Math.max(dp[i][j-1], dp[i-1][j]);
 			}
 		}
 		return dp[n][n];

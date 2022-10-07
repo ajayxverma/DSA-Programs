@@ -100,11 +100,13 @@ public class typeCasting {
         System.out.println("d = " + d + " b= " + b);
     }
     private static void inttoString() {
-        int i=200;  
+        int i=200; 
+        int j =400;
+        String ss = Integer.toString(j); 
         String s=String.valueOf(i);  
         System.out.println(i+100);//300 because + is binary plus operator  
         System.out.println(s+100);//200100 because + is string concatenation operator  
-
+        System.out.println("Convertion using Integer.toString() :"+j);
         String s1 = Integer.toString(i);
         System.out.println("Integer to Stirng using toSgring(): "+s1);
     }

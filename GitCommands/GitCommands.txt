@@ -1,0 +1,12 @@
+git --version : to check the git version
+git config --global user.name "User Name" : to set the User name of Git 
+git config --global user.email "User Email" : to set the Email 
+git config --global user.email : to check which email id is configured
+git config --global --edit : to open file in which the email id and user name is present
+Git init :  The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository. Most other Git commands are not available outside of an initialized repository, so this is usually the first command you'll run in a new project.
+git status : git the status of the changes in the dir
+git add fileName.java : to add in the staging area
+git add . : adds all the files in the staging area
+git commit : 
+
+git log : to chekc the changes in log
