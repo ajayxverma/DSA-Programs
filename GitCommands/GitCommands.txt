@@ -7,6 +7,13 @@ Git init :  The git init command creates a new Git repository. It can be used to
 git status : git the status of the changes in the dir
 git add fileName.java : to add in the staging area
 git add . : adds all the files in the staging area
-git commit : 
+git commit -m "Commit message": for alll files to commit
 
 git log : to chekc the changes in log
+git branch : show the in which branch are you in 
+git checkout 'hexcode' : to go to the previous commit using code 
+git checkout branchName : to move from one branch to another one
+create a file .gitignore to ignore commit to git
+remote -v : 
+ git branch -M master :
+ git push -u origin master :
