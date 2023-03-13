@@ -1,4 +1,4 @@
-package Leetcode_java;
+
 
 class Mergearray {
     public static int[] merge(int[] nums1, int m, int[] nums2, int n) {

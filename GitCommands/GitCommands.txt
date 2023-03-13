@@ -17,3 +17,32 @@ create a file .gitignore to ignore commit to
 git remote -v : 
 git branch -M master :
 git push -u origin master :
+
+
+//Go to the branch you want to rename
+git checkout branch-name
+
+
+//To change the Branch name  Use the -m flag to change the name of the branch
+git branch -m new-branch-name
+
+// You can then connect this remote repository to your local Git repository with the following command:
+
+$ git remote add origin <remote repository URL>
+
+//The final step is to push your changes from your local repository to your new remote repository:
+
+$ git push origin master
+
+//In order to change the URL of a Git remote, you have to use the “git remote set-url” command and specify the name of the remote as well as the new remote URL to be changed.
+
+$ git remote set-url <remote_name> <remote_url>
+
+ex : $ git remote set-url origin https://git-repo/new-repository.git
+
+
+//If the local branch is behind from the git branch then
+
+git pull --rebase origin master git push origin master
+git push origin master 
+

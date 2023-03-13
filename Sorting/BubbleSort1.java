@@ -9,22 +9,15 @@ public class BubbleSort1 {
                 if(ary[j]>ary[j+1]){
                     int temp = ary[j];
                     ary[j] = ary[j+1];
-                    ary[j+1] = temp;
-    
+                    ary[j+1] = temp;   
                 }
-    
             }
         }
         return ary;
     }
 
 
-    public static void printarray( int arr[]){
-        for(int i=0; i<arr.length; i++){
-            System.out.print(arr[i] + " ");
-        }
-        
-    }
+   
 
    public static void main(String[] args) {
     
@@ -32,8 +25,12 @@ public class BubbleSort1 {
 
    
     System.out.println();
-    sort(ary);
-    printarray(ary);
+    int[]sol =sort(ary);
+    for (int i : sol) {
+        System.out.print(i+ " ");
+        
+    }
+    
 
    }
 }

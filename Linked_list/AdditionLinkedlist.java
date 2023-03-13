@@ -1,6 +1,6 @@
 package Linked_list;
 
-import Arrays.matrixmulti;
+import Arrayss.matrixmulti;
 
 public class AdditionLinkedlist {
 

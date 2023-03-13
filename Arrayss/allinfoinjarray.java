@@ -1,4 +1,4 @@
-package Arrays;
+package Arrayss;
 
 public class allinfoinjarray {
 

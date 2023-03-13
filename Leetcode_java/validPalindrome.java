@@ -8,9 +8,6 @@ Explanation: "amanaplanacanalpanama" is a palindrome.
 
 */
 
-
-package Leetcode_java;
-
 public class validPalindrome {
 
         public static boolean isPalindrome(String s) {

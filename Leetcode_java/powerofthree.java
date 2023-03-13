@@ -12,7 +12,7 @@ Input: n = 0
 Output: false */
 
 
-package Leetcode_java;
+
 
 public class powerofthree {
     public static boolean isPowerOfThree(int n) {

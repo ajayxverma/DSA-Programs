@@ -24,8 +24,6 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 
 
-package Leetcode_java;
-
 class removeDuplicatess {
     public static int[] removeDuplicates(int[] nums) {
         int sol[] = new int[nums.length];

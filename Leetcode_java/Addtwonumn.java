@@ -20,7 +20,6 @@ Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
 Output: [8,9,9,9,0,0,0,1] */
 
 
-package Leetcode_java;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.LinkedList;

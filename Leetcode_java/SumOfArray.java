@@ -1,5 +1,5 @@
 //Progeam Name in leetcode: Running Sum of 1D Array
-package Leetcode_java;
+
 
 import java.util.Scanner;
 class SumOfArray {
