@@ -41,6 +41,14 @@ $ git push origin master
 $ git remote set-url <remote_name> <remote_url>
 
 ex : $ git remote set-url origin https://git-repo/new-repository.git
+//It you get error of mis amthc of 
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Try: git pull --rebase origin main
+
 
 
 //If the local branch is behind from the git branch then
