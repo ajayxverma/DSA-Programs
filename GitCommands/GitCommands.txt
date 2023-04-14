@@ -53,6 +53,6 @@ Try: git pull --rebase origin main
 
 //If the local branch is behind from the git branch then
 
-git pull --rebase origin master git push origin master
-git push origin master 
+git pull --rebase origin master //master is your branch name
+git push origin master //master is your branch name
 
