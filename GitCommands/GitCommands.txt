@@ -55,4 +55,5 @@ Try: git pull --rebase origin main
 
 git pull --rebase origin master //master is your branch name
 git push origin master //master is your branch name
-
+//create a new branch and swith to the new branch
+git switch -c new-branch
