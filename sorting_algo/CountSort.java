@@ -1,4 +1,4 @@
-package Sorting;
+package sorting_algo;
 
 
 //count Srot Algo

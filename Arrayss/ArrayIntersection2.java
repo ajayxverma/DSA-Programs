@@ -1,9 +1,8 @@
 package Arrayss;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
+
 
 
 // Question for the below problem : https://leetcode.com/problems/intersection-of-two-arrays-ii/description/

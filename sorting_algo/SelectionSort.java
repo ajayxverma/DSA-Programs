@@ -1,4 +1,4 @@
-package Sorting;
+package sorting_algo;
 public class SelectionSort {
 
     public static int[] sort(int arr[]){

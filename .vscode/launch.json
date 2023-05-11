@@ -1,741 +1,763 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Launch FruitsIntoBasket",
-            "request": "launch",
-            "mainClass": "Leetcode_java.FruitsIntoBasket",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch FloodFill",
-            "request": "launch",
-            "mainClass": "FloodFill",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch RotateArrayII",
-            "request": "launch",
-            "mainClass": "Arrayss.RotateArrayII",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch FirstBadSearch",
-            "request": "launch",
-            "mainClass": "Algorithms.FirstBadSearch",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch treeTest",
-            "request": "launch",
-            "mainClass": "Treess.tests.treeTest",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch test1",
-            "request": "launch",
-            "mainClass": "test.test1",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch BasisStream",
-            "request": "launch",
-            "mainClass": "StreamApi.BasisStream",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch ValidSudoku",
-            "request": "launch",
-            "mainClass": "Leetcode_java.ValidSudoku",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch ValidSudoku",
-            "request": "launch",
-            "mainClass": "ValidSudoku",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch ArrayIntersection2",
-            "request": "launch",
-            "mainClass": "Arrayss.ArrayIntersection2",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch demo",
-            "request": "launch",
-            "mainClass": "demo",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch RecusriosnSubsets",
-            "request": "launch",
-            "mainClass": "Leetcode_java.RecusriosnSubsets",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Subsets",
-            "request": "launch",
-            "mainClass": "Leetcode_java.Subsets",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "name": "Java",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ]
-        },
-        {
-            "name": "Java Console App",
-            "type": "java",
-            "request": "launch",
-            "stopOnEntry": true,
-            "jdkPath": "${env:JAVA_HOME}/bin",
-            "cwd": "${fileDirname}",
-            "startupClass": "${fileBasenameNoExtension}",
-            "classpath": [
-                ".",
-                "${fileDirname}"
-            ],
-            "externalConsole": true
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Launch SWMusingPQueue",
-            "request": "launch",
-            "mainClass": "Algorithms.SWMusingPQueue",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch SlidingWindow",
-            "request": "launch",
-            "mainClass": "Algorithms.SlidingWindow",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch ArmStrong1",
-            "request": "launch",
-            "mainClass": "ArmStrong1",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Armstsrong",
-            "request": "launch",
-            "mainClass": "Armstsrong",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch BinarySearch",
-            "request": "launch",
-            "mainClass": "Arrayss.BinarySearch",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Debug",
-            "request": "launch",
-            "mainClass": "Arrayss.Debug",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch JumpGame2",
-            "request": "launch",
-            "mainClass": "Arrayss.JumpGame2",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch MergeSortArray",
-            "request": "launch",
-            "mainClass": "Arrayss.MergeSortArray",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch allinfoinjarray",
-            "request": "launch",
-            "mainClass": "Arrayss.allinfoinjarray",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch insertUpdateDelete",
-            "request": "launch",
-            "mainClass": "Arrayss.insertUpdateDelete",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch matrixmulti",
-            "request": "launch",
-            "mainClass": "Arrayss.matrixmulti",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch rotatearray",
-            "request": "launch",
-            "mainClass": "Arrayss.rotatearray",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch searchinsert",
-            "request": "launch",
-            "mainClass": "Arrayss.searchinsert",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch test",
-            "request": "launch",
-            "mainClass": "Arrayss.test",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringBuiler",
-            "request": "launch",
-            "mainClass": "Basics.StringBuiler",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch typeCasting",
-            "request": "launch",
-            "mainClass": "Basics.typeCasting",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch BubbleSort",
-            "request": "launch",
-            "mainClass": "BubbleSort",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch ArrayListfuns",
-            "request": "launch",
-            "mainClass": "CollectionsFramework.List.ArrayListfuns",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch HashMapbasic",
-            "request": "launch",
-            "mainClass": "CollectionsFramework.Map.HashMapbasic",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch demoHashMap",
-            "request": "launch",
-            "mainClass": "CollectionsFramework.Map.demoHashMap",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Reverseastring",
-            "request": "launch",
-            "mainClass": "DSA.Reverseastring",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch maxminarr",
-            "request": "launch",
-            "mainClass": "DSA.maxminarr",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Factorial",
-            "request": "launch",
-            "mainClass": "Factorial",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Fibonacci",
-            "request": "launch",
-            "mainClass": "Fibonacci",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch FobonacciRecur",
-            "request": "launch",
-            "mainClass": "FobonacciRecur",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Hashsetimp",
-            "request": "launch",
-            "mainClass": "Hash.Hashsetimp",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Addtwonum",
-            "request": "launch",
-            "mainClass": "Leetcode_java.Addtwonum",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Addtwonumn",
-            "request": "launch",
-            "mainClass": "Leetcode_java.Addtwonumn",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Mergearray",
-            "request": "launch",
-            "mainClass": "Leetcode_java.Mergearray",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Solution",
-            "request": "launch",
-            "mainClass": "Leetcode_java.Solution",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch SumOfArray",
-            "request": "launch",
-            "mainClass": "Leetcode_java.SumOfArray",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Debug(1)",
-            "request": "launch",
-            "mainClass": "Leetcode_java.Test.Debug",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch TwoSum",
-            "request": "launch",
-            "mainClass": "Leetcode_java.TwoSum",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch addString",
-            "request": "launch",
-            "mainClass": "Leetcode_java.addString",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch pivotIndex",
-            "request": "launch",
-            "mainClass": "Leetcode_java.pivotIndex",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch powerofthree",
-            "request": "launch",
-            "mainClass": "Leetcode_java.powerofthree",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch removeDuplicatess",
-            "request": "launch",
-            "mainClass": "Leetcode_java.removeDuplicatess",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch romantoint",
-            "request": "launch",
-            "mainClass": "Leetcode_java.romantoint",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch solution",
-            "request": "launch",
-            "mainClass": "Leetcode_java.solution.solution",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch validPalindrome",
-            "request": "launch",
-            "mainClass": "Leetcode_java.validPalindrome",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch LinearSearch",
-            "request": "launch",
-            "mainClass": "LinearSearch",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch AdditionLinkedlist",
-            "request": "launch",
-            "mainClass": "Linked_list.AdditionLinkedlist",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Implementation",
-            "request": "launch",
-            "mainClass": "Linked_list.Implementation",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch implement2",
-            "request": "launch",
-            "mainClass": "Linked_list.implement2",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch pract",
-            "request": "launch",
-            "mainClass": "Linked_list.pract",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch PascalTriangle",
-            "request": "launch",
-            "mainClass": "List_Problems.PascalTriangle",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Palindrome",
-            "request": "launch",
-            "mainClass": "Palindrome",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Palindrome1",
-            "request": "launch",
-            "mainClass": "Palindrome1",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch PatternTest",
-            "request": "launch",
-            "mainClass": "PatternTest",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Permutation",
-            "request": "launch",
-            "mainClass": "Permutation",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Practice",
-            "request": "launch",
-            "mainClass": "Practice",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch RandomNumber",
-            "request": "launch",
-            "mainClass": "RandomNumber",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch BubbleSort1",
-            "request": "launch",
-            "mainClass": "Sorting.BubbleSort1",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch CountSort",
-            "request": "launch",
-            "mainClass": "Sorting.CountSort",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch SelectionSort",
-            "request": "launch",
-            "mainClass": "Sorting.SelectionSort",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch myStackImp",
-            "request": "launch",
-            "mainClass": "Stacks_Queues.myStackImp",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch stackimp",
-            "request": "launch",
-            "mainClass": "Stacks_Queues.stackimp",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringOperation",
-            "request": "launch",
-            "mainClass": "StringOperation",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Allsubsequencesofastring",
-            "request": "launch",
-            "mainClass": "Strings.Allsubsequencesofastring",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch BASICS",
-            "request": "launch",
-            "mainClass": "Strings.BASICS",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch CountAndSay",
-            "request": "launch",
-            "mainClass": "Strings.CountAndSay",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch IncreaseingDecreasingString",
-            "request": "launch",
-            "mainClass": "Strings.IncreaseingDecreasingString",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch PartitionLabels",
-            "request": "launch",
-            "mainClass": "Strings.PartitionLabels",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch ReverseStringII",
-            "request": "launch",
-            "mainClass": "Strings.ReverseStringII",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch Shuffle1",
-            "request": "launch",
-            "mainClass": "Strings.Shuffle1",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringMatchingArray",
-            "request": "launch",
-            "mainClass": "Strings.StringMatchingArray",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch StringRotation",
-            "request": "launch",
-            "mainClass": "Strings.StringRotation",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch DeBug",
-            "request": "launch",
-            "mainClass": "Strings.Test.DeBug",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch DebugCode2",
-            "request": "launch",
-            "mainClass": "Strings.Test.DebugCode2",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch DebugCode3",
-            "request": "launch",
-            "mainClass": "Strings.Test.DebugCode3",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch recalling",
-            "request": "launch",
-            "mainClass": "Strings.recalling",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch repeatingsubsequence",
-            "request": "launch",
-            "mainClass": "Strings.repeatingsubsequence",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch shuffledsubstrings",
-            "request": "launch",
-            "mainClass": "Strings.shuffledsubstrings",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch binaryTree2",
-            "request": "launch",
-            "mainClass": "Treess.binaryTree2",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch binraryTree",
-            "request": "launch",
-            "mainClass": "Treess.binraryTree",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch deleteNodeBST",
-            "request": "launch",
-            "mainClass": "Treess.deleteNodeBST",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch leveordertr",
-            "request": "launch",
-            "mainClass": "Treess.leveordertr",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch practices",
-            "request": "launch",
-            "mainClass": "Treess.practices",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch nfactorial",
-            "request": "launch",
-            "mainClass": "nfactorial",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch reverse",
-            "request": "launch",
-            "mainClass": "reverse",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch solution(1)",
-            "request": "launch",
-            "mainClass": "solution",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch sumofn",
-            "request": "launch",
-            "mainClass": "sumofn",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch question1",
-            "request": "launch",
-            "mainClass": "test.question1",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch source3",
-            "request": "launch",
-            "mainClass": "test.source3",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch test1",
-            "request": "launch",
-            "mainClass": "test1",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch test2",
-            "request": "launch",
-            "mainClass": "test2",
-            "projectName": "Java DSA Problems_3d485edb"
-        },
-        {
-            "type": "java",
-            "name": "Launch test3",
-            "request": "launch",
-            "mainClass": "test3",
-            "projectName": "Java DSA Problems_3d485edb"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CountSort",
+      "request": "launch",
+      "mainClass": "sorting_algo.CountSort",
+      "projectName": "DSA-Programs_d1238056"
+    },
+    {
+      "type": "java",
+      "name": "allinfoinjarray",
+      "request": "launch",
+      "mainClass": "Arrayss.allinfoinjarray",
+      "projectName": "DSA-Programs_d1238056"
+    },
+    {
+      "type": "java",
+      "name": "implement2",
+      "request": "launch",
+      "mainClass": "Linked_list.implement2",
+      "projectName": "DSA-Programs_d1238056"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort1",
+      "request": "launch",
+      "mainClass": "sorting_algo.BubbleSort1",
+      "projectName": "DSA-Programs_d1238056"
+    },
+    {
+      "type": "java",
+      "name": "Launch FruitsIntoBasket",
+      "request": "launch",
+      "mainClass": "Leetcode_java.FruitsIntoBasket",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch FloodFill",
+      "request": "launch",
+      "mainClass": "FloodFill",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch RotateArrayII",
+      "request": "launch",
+      "mainClass": "Arrayss.RotateArrayII",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch FirstBadSearch",
+      "request": "launch",
+      "mainClass": "Algorithms.FirstBadSearch",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch treeTest",
+      "request": "launch",
+      "mainClass": "Treess.tests.treeTest",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch test1",
+      "request": "launch",
+      "mainClass": "test.test1",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch BasisStream",
+      "request": "launch",
+      "mainClass": "StreamApi.BasisStream",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValidSudoku",
+      "request": "launch",
+      "mainClass": "Leetcode_java.ValidSudoku",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch ValidSudoku",
+      "request": "launch",
+      "mainClass": "ValidSudoku",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayIntersection2",
+      "request": "launch",
+      "mainClass": "Arrayss.ArrayIntersection2",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch demo",
+      "request": "launch",
+      "mainClass": "demo",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch RecusriosnSubsets",
+      "request": "launch",
+      "mainClass": "Leetcode_java.RecusriosnSubsets",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Subsets",
+      "request": "launch",
+      "mainClass": "Leetcode_java.Subsets",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "name": "Java",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [".", "${fileDirname}"]
+    },
+    {
+      "name": "Java Console App",
+      "type": "java",
+      "request": "launch",
+      "stopOnEntry": true,
+      "jdkPath": "${env:JAVA_HOME}/bin",
+      "cwd": "${fileDirname}",
+      "startupClass": "${fileBasenameNoExtension}",
+      "classpath": [".", "${fileDirname}"],
+      "externalConsole": true
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch SWMusingPQueue",
+      "request": "launch",
+      "mainClass": "Algorithms.SWMusingPQueue",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch SlidingWindow",
+      "request": "launch",
+      "mainClass": "Algorithms.SlidingWindow",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArmStrong1",
+      "request": "launch",
+      "mainClass": "ArmStrong1",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Armstsrong",
+      "request": "launch",
+      "mainClass": "Armstsrong",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch BinarySearch",
+      "request": "launch",
+      "mainClass": "Arrayss.BinarySearch",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Debug",
+      "request": "launch",
+      "mainClass": "Arrayss.Debug",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch JumpGame2",
+      "request": "launch",
+      "mainClass": "Arrayss.JumpGame2",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch MergeSortArray",
+      "request": "launch",
+      "mainClass": "Arrayss.MergeSortArray",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch allinfoinjarray",
+      "request": "launch",
+      "mainClass": "Arrayss.allinfoinjarray",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch insertUpdateDelete",
+      "request": "launch",
+      "mainClass": "Arrayss.insertUpdateDelete",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch matrixmulti",
+      "request": "launch",
+      "mainClass": "Arrayss.matrixmulti",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch rotatearray",
+      "request": "launch",
+      "mainClass": "Arrayss.rotatearray",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch searchinsert",
+      "request": "launch",
+      "mainClass": "Arrayss.searchinsert",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch test",
+      "request": "launch",
+      "mainClass": "Arrayss.test",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringBuiler",
+      "request": "launch",
+      "mainClass": "Basics.StringBuiler",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch typeCasting",
+      "request": "launch",
+      "mainClass": "Basics.typeCasting",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch BubbleSort",
+      "request": "launch",
+      "mainClass": "BubbleSort",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch ArrayListfuns",
+      "request": "launch",
+      "mainClass": "CollectionsFramework.List.ArrayListfuns",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch HashMapbasic",
+      "request": "launch",
+      "mainClass": "CollectionsFramework.Map.HashMapbasic",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch demoHashMap",
+      "request": "launch",
+      "mainClass": "CollectionsFramework.Map.demoHashMap",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Reverseastring",
+      "request": "launch",
+      "mainClass": "DSA.Reverseastring",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch maxminarr",
+      "request": "launch",
+      "mainClass": "DSA.maxminarr",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch FobonacciRecur",
+      "request": "launch",
+      "mainClass": "FobonacciRecur",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Hashsetimp",
+      "request": "launch",
+      "mainClass": "Hash.Hashsetimp",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Addtwonum",
+      "request": "launch",
+      "mainClass": "Leetcode_java.Addtwonum",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Addtwonumn",
+      "request": "launch",
+      "mainClass": "Leetcode_java.Addtwonumn",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Mergearray",
+      "request": "launch",
+      "mainClass": "Leetcode_java.Mergearray",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Solution",
+      "request": "launch",
+      "mainClass": "Leetcode_java.Solution",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch SumOfArray",
+      "request": "launch",
+      "mainClass": "Leetcode_java.SumOfArray",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Debug(1)",
+      "request": "launch",
+      "mainClass": "Leetcode_java.Test.Debug",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch TwoSum",
+      "request": "launch",
+      "mainClass": "Leetcode_java.TwoSum",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch addString",
+      "request": "launch",
+      "mainClass": "Leetcode_java.addString",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch pivotIndex",
+      "request": "launch",
+      "mainClass": "Leetcode_java.pivotIndex",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch powerofthree",
+      "request": "launch",
+      "mainClass": "Leetcode_java.powerofthree",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch removeDuplicatess",
+      "request": "launch",
+      "mainClass": "Leetcode_java.removeDuplicatess",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch romantoint",
+      "request": "launch",
+      "mainClass": "Leetcode_java.romantoint",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch solution",
+      "request": "launch",
+      "mainClass": "Leetcode_java.solution.solution",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch validPalindrome",
+      "request": "launch",
+      "mainClass": "Leetcode_java.validPalindrome",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch LinearSearch",
+      "request": "launch",
+      "mainClass": "LinearSearch",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch AdditionLinkedlist",
+      "request": "launch",
+      "mainClass": "Linked_list.AdditionLinkedlist",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Implementation",
+      "request": "launch",
+      "mainClass": "Linked_list.Implementation",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch implement2",
+      "request": "launch",
+      "mainClass": "Linked_list.implement2",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch pract",
+      "request": "launch",
+      "mainClass": "Linked_list.pract",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch PascalTriangle",
+      "request": "launch",
+      "mainClass": "List_Problems.PascalTriangle",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Palindrome1",
+      "request": "launch",
+      "mainClass": "Palindrome1",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch PatternTest",
+      "request": "launch",
+      "mainClass": "PatternTest",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Permutation",
+      "request": "launch",
+      "mainClass": "Permutation",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Practice",
+      "request": "launch",
+      "mainClass": "Practice",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch RandomNumber",
+      "request": "launch",
+      "mainClass": "RandomNumber",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch BubbleSort1",
+      "request": "launch",
+      "mainClass": "Sorting.BubbleSort1",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountSort",
+      "request": "launch",
+      "mainClass": "Sorting.CountSort",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch SelectionSort",
+      "request": "launch",
+      "mainClass": "Sorting.SelectionSort",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch myStackImp",
+      "request": "launch",
+      "mainClass": "Stacks_Queues.myStackImp",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch stackimp",
+      "request": "launch",
+      "mainClass": "Stacks_Queues.stackimp",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringOperation",
+      "request": "launch",
+      "mainClass": "StringOperation",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Allsubsequencesofastring",
+      "request": "launch",
+      "mainClass": "Strings.Allsubsequencesofastring",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch BASICS",
+      "request": "launch",
+      "mainClass": "Strings.BASICS",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch CountAndSay",
+      "request": "launch",
+      "mainClass": "Strings.CountAndSay",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch IncreaseingDecreasingString",
+      "request": "launch",
+      "mainClass": "Strings.IncreaseingDecreasingString",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch PartitionLabels",
+      "request": "launch",
+      "mainClass": "Strings.PartitionLabels",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch ReverseStringII",
+      "request": "launch",
+      "mainClass": "Strings.ReverseStringII",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch Shuffle1",
+      "request": "launch",
+      "mainClass": "Strings.Shuffle1",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringMatchingArray",
+      "request": "launch",
+      "mainClass": "Strings.StringMatchingArray",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch StringRotation",
+      "request": "launch",
+      "mainClass": "Strings.StringRotation",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch DeBug",
+      "request": "launch",
+      "mainClass": "Strings.Test.DeBug",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch DebugCode2",
+      "request": "launch",
+      "mainClass": "Strings.Test.DebugCode2",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch DebugCode3",
+      "request": "launch",
+      "mainClass": "Strings.Test.DebugCode3",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch recalling",
+      "request": "launch",
+      "mainClass": "Strings.recalling",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch repeatingsubsequence",
+      "request": "launch",
+      "mainClass": "Strings.repeatingsubsequence",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch shuffledsubstrings",
+      "request": "launch",
+      "mainClass": "Strings.shuffledsubstrings",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch binaryTree2",
+      "request": "launch",
+      "mainClass": "Treess.binaryTree2",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch binraryTree",
+      "request": "launch",
+      "mainClass": "Treess.binraryTree",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch deleteNodeBST",
+      "request": "launch",
+      "mainClass": "Treess.deleteNodeBST",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch leveordertr",
+      "request": "launch",
+      "mainClass": "Treess.leveordertr",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch practices",
+      "request": "launch",
+      "mainClass": "Treess.practices",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch nfactorial",
+      "request": "launch",
+      "mainClass": "nfactorial",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch reverse",
+      "request": "launch",
+      "mainClass": "reverse",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch solution(1)",
+      "request": "launch",
+      "mainClass": "solution",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch sumofn",
+      "request": "launch",
+      "mainClass": "sumofn",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch question1",
+      "request": "launch",
+      "mainClass": "test.question1",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch source3",
+      "request": "launch",
+      "mainClass": "test.source3",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch test1",
+      "request": "launch",
+      "mainClass": "test1",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch test2",
+      "request": "launch",
+      "mainClass": "test2",
+      "projectName": "Java DSA Problems_3d485edb"
+    },
+    {
+      "type": "java",
+      "name": "Launch test3",
+      "request": "launch",
+      "mainClass": "test3",
+      "projectName": "Java DSA Problems_3d485edb"
+    }
+  ]
 }
