@@ -1,6 +1,6 @@
 /* Sliding window using MAXMIN */
 
-package Algorithms;
+// package Algorithms;
 
 public class SlidingWindow {
     public static int maxsum(int[] arr, int a){

@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LongestCommonPrefix14",
+      "request": "launch",
+      "mainClass": "Arrayss.LongestCommonPrefix14",
+      "projectName": "DSA-Programs_d1238056"
+    },
+    {
+      "type": "java",
+      "name": "MergeSortArray",
+      "request": "launch",
+      "mainClass": "Arrayss.MergeSortArray",
+      "projectName": "DSA-Programs_d1238056"
+    },
+    {
+      "type": "java",
       "name": "CountSort",
       "request": "launch",
       "mainClass": "sorting_algo.CountSort",
@@ -131,7 +145,10 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [".", "${fileDirname}"]
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ]
     },
     {
       "name": "Java Console App",
@@ -141,7 +158,10 @@
       "jdkPath": "${env:JAVA_HOME}/bin",
       "cwd": "${fileDirname}",
       "startupClass": "${fileBasenameNoExtension}",
-      "classpath": [".", "${fileDirname}"],
+      "classpath": [
+        ".",
+        "${fileDirname}"
+      ],
       "externalConsole": true
     },
     {
